@@ -78,10 +78,7 @@ nav {
 
 #footer {
   height: 100px;
-}
-
-#footer.row {
-  gap: 10%;
+  display: flex;
   justify-content: space-between;
 }
 
