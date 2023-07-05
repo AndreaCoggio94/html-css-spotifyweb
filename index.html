@@ -24,34 +24,32 @@
     <!-- link -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="debug">
     <!-- main -->
-    <main>
-      <div class="row">
-        <!-- side-bar -->
-        <div class="col">
-          <div id="side-bar"></div>
-        </div>
-        <!-- content -->
-        <div class="col">
-          <div id="content">
-            <!-- nav-bar -->
-            <nav></nav>
-            <!-- main-content -->
-            <div class="main-content"></div>
-          </div>
-        </div>
+    <main class="main-container">
+      <!-- side-bar -->
+      <div id="side-bar" class="bg-green">
+        <div class="col bordered small"></div>
+        <div class="col bordered small"></div>
+        <div class="col bordered small"></div>
+        <div class="col bordered small"></div>
+        <div class="col bordered small"></div>
+      </div>
+      <!-- content -->
+      <div id="content" class="col bg-pink">
+        <!-- nav-bar -->
+        <nav class="bg-purple"></nav>
+        <!-- main-content -->
+        <div class="main-content bg-black"></div>
       </div>
     </main>
-    <footer>
-      <div class="row">
-        <!-- footer-left -->
-        <div class="col"></div>
-        <!-- footer-middle -->
-        <div class="col"></div>
-        <!-- footer-right -->
-        <div class="col"></div>
-      </div>
+    <footer id="footer" class="bg-black row">
+      <!-- footer-left -->
+      <div class="col bordered-light"></div>
+      <!-- footer-middle -->
+      <div class="col bordered-light"></div>
+      <!-- footer-right -->
+      <div class="col bordered-light"></div>
     </footer>
   </body>
 </html>
