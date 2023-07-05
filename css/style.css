@@ -164,6 +164,26 @@
   padding: 0.5rem;
 }
 
+#footer .footer-middle .bar .line {
+  height: 5px;
+  border-radius: 30px;
+  background-color: var(--gray);
+}
+
+/* footer-right */
+/* ! bring .action i and .bar .line in a single line of code */
+
+#footer .footer-right .action > i {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+#footer .footer-right .bar .line {
+  height: 5px;
+  border-radius: 30px;
+  background-color: var(--gray);
+}
+
 /* ** responsive */
 
 @media screen and (max-width: 1200px) {
