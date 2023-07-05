@@ -66,13 +66,23 @@
   width: calc(100% - 300px);
 }
 
-/* * nav-bar */
+/* * content - header */
 
-nav {
+#content header {
   height: 80px;
+  text-align: right;
+  line-height: 80px;
 }
 
 /* * main-content */
+
+.main-content .recent .row {
+  flex-wrap: wrap;
+}
+
+.main-content .recent .col {
+  width: 100px;
+}
 
 /* ** footer */
 
