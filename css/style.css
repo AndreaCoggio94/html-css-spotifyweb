@@ -35,8 +35,18 @@
 
 /* ** general */
 
+/* font */
+
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
 .row {
   display: flex;
+}
+
+.img {
+  width: 100%;
 }
 
 /* ** main */
@@ -66,7 +76,7 @@
 
 #side-bar .top .col:last-child {
   background-color: var(--blue);
-  overflow: auto;
+  overflow-y: auto;
 }
 
 #side-bar > .col:last-child {
@@ -86,8 +96,8 @@
   text-align: right;
   line-height: 80px;
   position: fixed;
-  left: 300px;
   right: 0;
+  left: 300px;
 }
 
 /* * main-content */
@@ -116,7 +126,65 @@
   height: 100px;
   display: flex;
   justify-content: space-between;
+  color: var(--white);
 }
+
+/* footer-left */
+
+#footer .footer-left {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+#footer .footer-left .media > img {
+  width: 3rem;
+}
+
+#footer .footer-left .name > h3 {
+  font-size: 1rem;
+}
+
+#footer .footer-left .action > i {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+#footer .footer-left .name > address {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+/* footer-middle */
+
+#footer .footer-middle .action > i {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+/* ** responsive */
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* 
+breakpoints 
+extrasmall: ≤ 576px
+small: ≤ 768px
+medium: ≤ 992px
+large: ≤ 1200px
+*/
 
 /* ** debug */
 
