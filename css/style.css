@@ -322,6 +322,10 @@ h2 {
   background-color: var(--main-content-dark-blue);
 }
 
+#content nav .element:hover {
+  color: var(--white);
+}
+
 #content nav .element:hover .line {
   background-color: var(--pastel-green);
 }
