@@ -192,6 +192,14 @@
   transform: translate(-50%, -50%);
 }
 
+#footer .bar:hover .ball.hidden {
+  display: block;
+}
+
+#footer .bar:hover .line {
+  background-color: var(--pastel-green);
+}
+
 /* media */
 
 #footer .media > img {
