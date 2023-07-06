@@ -92,19 +92,19 @@
 /* ** content */
 
 #content {
-  width: calc(100% - 300px);
+  width: calc(100% - var(--side-bar-width));
   overflow-y: auto;
 }
 
 /* * content - header */
 
 #content header {
-  height: 80px;
+  height: var(--header-height);
   text-align: right;
-  line-height: 80px;
-  position: fixed;
-  right: 0;
-  left: 300px;
+  line-height: var(--header-height);
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
 /* * main-content */
