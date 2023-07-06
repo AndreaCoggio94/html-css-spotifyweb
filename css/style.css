@@ -269,6 +269,7 @@ h3 {
 #content {
   width: calc(100% - var(--side-bar-width));
   overflow-y: auto;
+  background-color: var(--main-content-dark-blue);
 }
 
 /* * content - header */
@@ -296,6 +297,27 @@ h3 {
 
 .main-content .col {
   width: 100px;
+}
+
+/* nav-bar */
+
+#content nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--primary-gray);
+  padding: 1rem;
+}
+
+#content nav .element .line {
+  width: 40%;
+  height: 5px;
+  margin: 0.2rem auto 0;
+  background-color: var(--main-content-dark-blue);
+}
+
+#content nav .element:hover .line {
+  background-color: var(--pastel-green);
 }
 
 /* recent */
