@@ -153,6 +153,11 @@ svg {
 
 /* side-bar add playlist */
 
+#side-bar .add-playlist h2 {
+  padding-bottom: 0.5rem;
+  color: var(--white);
+}
+
 #side-bar .add-playlist button {
   display: inline-block;
   background-color: var(--primary-gray);
@@ -166,6 +171,14 @@ svg {
   display: inline;
 }
 
+#side-bar .add-playlist .action:hover {
+  color: var(--white);
+}
+
+#side-bar .add-playlist .action:hover button {
+  background-color: var(--white);
+}
+
 /* side-bar playlist */
 
 #side-bar .playlist {
@@ -175,6 +188,10 @@ svg {
 #side-bar .playlist li {
   padding: 0.5rem;
   padding-left: 0;
+}
+
+#side-bar .playlist li:hover {
+  color: var(--white);
 }
 
 #side-bar > .col:last-child {
