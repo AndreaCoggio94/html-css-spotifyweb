@@ -191,10 +191,6 @@ svg {
   font-size: 1.5rem;
 }
 
-/* #side-bar .add-playlist p {
-  display: inline;
-} */
-
 #side-bar .add-playlist .action:hover {
   color: var(--white);
 }
@@ -307,6 +303,7 @@ svg {
 
 #content nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   color: var(--primary-gray);
