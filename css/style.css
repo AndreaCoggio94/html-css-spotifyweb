@@ -65,6 +65,20 @@ p {
   font-size: o.8rem;
 }
 
+/* button */
+
+.btn {
+  padding: 0.5rem 2rem;
+  border-radius: 30px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.btn-white {
+  background-color: var(--header-black);
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
 /* ul */
 
 ul {
@@ -266,6 +280,12 @@ h3 {
   position: sticky;
   top: 0;
   width: 100%;
+  background-color: var(--header-black);
+  padding-right: 1rem;
+}
+
+#content header button:hover {
+  scale: 1.1;
 }
 
 /* * main-content */
