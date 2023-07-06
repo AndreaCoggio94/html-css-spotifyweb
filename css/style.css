@@ -94,7 +94,7 @@ ul {
 
 /* img */
 
-.img {
+img {
   width: 100%;
 }
 
@@ -291,12 +291,13 @@ svg {
 
 /* * main-content */
 
-.main-content .row {
-  flex-wrap: wrap;
+.main-content {
+  color: var(--primary-gray);
 }
 
-.main-content .col {
-  width: 100px;
+.main-content h1,
+h2 {
+  color: var(--white);
 }
 
 /* nav-bar */
@@ -321,7 +322,24 @@ svg {
   background-color: var(--pastel-green);
 }
 
+/* main-content-flex */
+
+.main-content .row {
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: var(--primary-gray);
+  padding: 1rem;
+}
+
+.main-content .card {
+  width: calc((100% / 6) - 1rem);
+  text-align: center;
+}
+
 /* recent */
+
+#content .recent .card {
+}
 
 /* personal */
 
