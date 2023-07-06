@@ -64,6 +64,12 @@ p {
   font-size: o.8rem;
 }
 
+/* ul */
+
+ul {
+  list-style: none;
+}
+
 /* flex */
 
 .row {
@@ -162,9 +168,13 @@ svg {
 
 /* side-bar playlist */
 
-#side-bar .top .col:last-child {
-  background-color: var(--blue);
+#side-bar .playlist {
   overflow-y: auto;
+}
+
+#side-bar .playlist li {
+  padding: 0.5rem;
+  padding-left: 0;
 }
 
 #side-bar > .col:last-child {
