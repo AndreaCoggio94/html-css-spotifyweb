@@ -289,6 +289,7 @@ svg {
   width: 100%;
   background-color: var(--header-black);
   padding-right: 1rem;
+  z-index: 4;
 }
 
 #content header button:hover {
