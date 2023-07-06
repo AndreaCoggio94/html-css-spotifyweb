@@ -56,6 +56,14 @@
   font-family: "Noto Sans", sans-serif;
 }
 
+h2 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: o.8rem;
+}
+
 /* flex */
 
 .row {
@@ -136,6 +144,23 @@ svg {
   color: var(--white);
   margin-left: calc(var(--side-bar-selection-width) * -1);
 }
+
+/* side-bar add playlist */
+
+#side-bar .add-playlist button {
+  display: inline-block;
+  background-color: var(--primary-gray);
+  border: 0;
+  width: 2.5rem;
+  aspect-ratio: 1 / 1;
+  font-size: 1.5rem;
+}
+
+#side-bar .add-playlist p {
+  display: inline;
+}
+
+/* side-bar playlist */
 
 #side-bar .top .col:last-child {
   background-color: var(--blue);
