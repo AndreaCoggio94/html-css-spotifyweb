@@ -24,6 +24,12 @@
   --yellow: #eeba72;
   --light-purple: #9792e4;
 
+  /* web-site colors */
+  --footer-gray: #282828;
+  --side-bar-black: #000000;
+  --header-black: rgba(8, 11, 18, 0.5);
+  --main-content-dark-blue: #141922;
+
   /* main elements */
   --media-progress: 20%;
   --audio-volume: 30%;
@@ -145,6 +151,7 @@
   display: flex;
   justify-content: space-between;
   color: var(--white);
+  background-color: var(--footer-gray);
 }
 
 #footer .footer-col {
