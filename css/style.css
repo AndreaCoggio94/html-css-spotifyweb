@@ -505,6 +505,12 @@ h2 {
 }
 
 @media screen and (max-width: 992px) {
+  /* ** main-content-flex */
+
+  .main-content .card {
+    width: calc((100% / 4) - 1rem);
+  }
+
   /* ** footer */
 
   #footer .action {
@@ -534,6 +540,12 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
+  /* ** main-content-flex */
+
+  .main-content .card {
+    width: calc((100% / 2) - 1rem);
+  }
+
   /* ** footer */
 
   #footer .footer-col {
