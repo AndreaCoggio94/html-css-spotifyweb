@@ -264,6 +264,12 @@ svg {
   transform: translate(-50%, -50%);
 }
 
+/* side-bar account hover */
+
+#side-bar .account .account-top:hover p {
+  color: var(--white);
+}
+
 /* ** content */
 
 #content {
