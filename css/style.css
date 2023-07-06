@@ -48,12 +48,22 @@
   font-family: "Noto Sans", sans-serif;
 }
 
+/* flex */
+
 .row {
   display: flex;
 }
 
+/* img */
+
 .img {
   width: 100%;
+}
+
+/* hidden */
+
+.hidden {
+  display: none;
 }
 
 /* ** main */
@@ -168,6 +178,18 @@
   background-color: var(--white);
   height: 5px;
   border-radius: 30px;
+  position: relative;
+}
+
+#footer .bar > .line > .ball {
+  background-color: var(--white);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* media */
