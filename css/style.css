@@ -396,23 +396,24 @@ h3 {
   width: 3rem;
 }
 
+/* ! vedere se mantenerli */
 /* name */
 
-#footer .name > h3 {
+/*! #footer .name > h3 {
   font-size: 0.8rem;
-}
+} */
 
 #footer .name > address {
   font-style: normal;
   font-weight: 100;
-  font-size: 0.6rem;
+  /*! font-size: 0.6rem; */
 }
 
 /* number */
 
-#footer .number > h4 {
+/* ! #footer .number > h4 {
   font-size: 0.6rem;
-}
+} */
 
 /* footer song */
 
@@ -456,7 +457,7 @@ h3 {
 
 /* ** responsive */
 /* ! chiedere se va bene cambiare la max-width prima degli standard 1200px */
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1330px) {
   /* ** general */
 
   * {
@@ -469,6 +470,18 @@ h3 {
 
   #footer .action {
     font-size: 0.8rem;
+  }
+
+  #footer .name > h3 {
+    font-size: 0.8rem;
+  }
+
+  #footer .name > address {
+    font-size: 0.6rem;
+  }
+
+  #footer .number > h4 {
+    font-size: 0.6rem;
   }
 
   /* footer progress */
@@ -495,7 +508,7 @@ h3 {
 
   /* footer progress */
   #footer .progress .bar {
-    width: 150px;
+    width: 100px;
   }
   /* footer setting */
   #footer .setting .bar {
