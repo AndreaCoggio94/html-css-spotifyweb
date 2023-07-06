@@ -391,7 +391,7 @@ h2 {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  color: var(--white);
+  color: var(--primary-gray);
   background-color: var(--footer-gray);
 }
 
@@ -431,8 +431,8 @@ h2 {
 
 #footer .bar > .line > .ball {
   background-color: var(--white);
-  height: 15px;
-  width: 15px;
+  width: 1rem;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   position: absolute;
   left: 100%;
@@ -454,27 +454,17 @@ h2 {
   width: 3rem;
 }
 
-/* ! vedere se mantenerli */
 /* name */
-
-/*! #footer .name > h3 {
-  font-size: 0.8rem;
-} */
 
 #footer .name > address {
   font-style: normal;
-  font-weight: 100;
-  /*! font-size: 0.6rem; */
+  font-weight: 300;
 }
 
 /* number */
 
-/* ! #footer .number > h4 {
-  font-size: 0.6rem;
-} */
-
 /* footer song */
-
+/* ! yes I realized later that I just needed to change color */
 #footer .song .name:hover address {
   color: var(--white);
   text-decoration: underline;
@@ -490,6 +480,7 @@ h2 {
 
 #footer .song .action > .heart:hover .hidden {
   display: inline-block;
+  color: var(--white);
 }
 
 #footer .song .action > .folder:hover .collapsed {
@@ -498,6 +489,7 @@ h2 {
 
 #footer .song .action > .folder:hover .hidden {
   display: inline-block;
+  color: var(--white);
 }
 
 /* footer progress */
@@ -509,6 +501,7 @@ h2 {
 
 #footer .progress .action > i {
   padding-left: 0.5rem;
+  color: var(--white);
 }
 
 #footer .progress .progress-bar {
@@ -523,6 +516,10 @@ h2 {
 
 #footer .progress .bar > .line {
   width: var(--media-progress);
+}
+
+#footer .progress .middle:hover {
+  scale: 1.2;
 }
 
 /* footer setting */
