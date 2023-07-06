@@ -455,8 +455,13 @@ h3 {
 }
 
 /* ** responsive */
+/* ! chiedere se va bene cambiare la max-width prima degli standard 1200px */
+@media screen and (max-width: 1220px) {
+  /* ** general */
 
-@media screen and (max-width: 1200px) {
+  * {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
