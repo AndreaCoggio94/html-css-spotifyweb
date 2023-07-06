@@ -340,6 +340,29 @@ h2 {
   text-align: center;
 }
 
+/* main-content-hidden */
+
+.main-content .media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.main-content .media > i {
+  font-size: 4rem;
+  position: absolute;
+  color: var(--white);
+}
+
+.main-content .card:hover img {
+  filter: brightness(50%);
+}
+
+.main-content .card:hover i.hidden {
+  display: block;
+}
+
 /* recent */
 
 /* personal */
