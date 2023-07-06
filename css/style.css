@@ -174,8 +174,16 @@ svg {
   color: var(--white);
 }
 
+#side-bar .add-playlist .action {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 #side-bar .add-playlist button {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--primary-gray);
   border: 0;
   width: 2.5rem;
@@ -183,9 +191,9 @@ svg {
   font-size: 1.5rem;
 }
 
-#side-bar .add-playlist p {
+/* #side-bar .add-playlist p {
   display: inline;
-}
+} */
 
 #side-bar .add-playlist .action:hover {
   color: var(--white);
@@ -431,7 +439,7 @@ svg {
 }
 
 #footer .progress .bar {
-  width: 300px;
+  width: 500px;
 }
 
 #footer .progress .bar > .line {
@@ -444,7 +452,7 @@ svg {
 }
 
 #footer .setting .bar {
-  width: 100px;
+  width: 200px;
 }
 
 #footer .setting .bar > .line {
@@ -452,13 +460,27 @@ svg {
 }
 
 /* ** responsive */
-/* ! chiedere se va bene cambiare la max-width prima degli standard 1200px */
+/* ! this is for extremely big screens */
 @media screen and (max-width: 1330px) {
   /* ** general */
 
   * {
     font-size: 1rem;
   }
+
+  /* ** footer */
+
+  /* footer progress */
+  #footer .progress .bar {
+    width: 300px;
+  }
+  /* footer setting */
+  #footer .setting .bar {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
 }
 
 @media screen and (max-width: 992px) {
