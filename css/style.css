@@ -475,6 +475,31 @@ h2 {
 
 /* footer song */
 
+#footer .song .name:hover address {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+#footer .song .action .heart {
+  padding-right: 0.5rem;
+}
+
+#footer .song .action > .heart:hover .collapsed {
+  display: none;
+}
+
+#footer .song .action > .heart:hover .hidden {
+  display: inline-block;
+}
+
+#footer .song .action > .folder:hover .collapsed {
+  display: none;
+}
+
+#footer .song .action > .folder:hover .hidden {
+  display: inline-block;
+}
+
 /* footer progress */
 
 #footer .progress {
