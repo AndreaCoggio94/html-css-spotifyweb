@@ -58,12 +58,26 @@
   font-size: 1.2rem;
 }
 
-h2 {
+* h1 {
+  font-size: 1.5rem;
+}
+
+* h2 {
   font-size: 1rem;
 }
 
-p {
+* h3 {
+}
+
+* h4 {
+}
+
+* p {
   font-size: o.8rem;
+}
+
+* address {
+  font-size: 0.9rem;
 }
 
 /* button */
@@ -473,7 +487,9 @@ h2 {
 /* number */
 
 /* footer song */
-/* ! yes I realized later that I just needed to change color */
+/* ! yes I realized later that I just needed to change color
+! but I liked this effect more */
+
 #footer .song .name:hover address {
   color: var(--white);
   text-decoration: underline;
@@ -549,10 +565,35 @@ h2 {
 @media screen and (max-width: 1330px) {
   /* ** general */
 
+  /* font */
+
   * {
+    font-family: "Noto Sans", sans-serif;
     font-size: 1rem;
   }
 
+  * h1 {
+    font-size: 1.5rem;
+  }
+
+  * h2 {
+    font-size: 0.9rem;
+  }
+
+  * h3 {
+    font-size: 0.8rem;
+  }
+
+  * h4 {
+  }
+
+  * p {
+    font-size: o.6rem;
+  }
+
+  * address {
+    font-size: 0.7rem;
+  }
   /* ** footer */
 
   /* footer progress */
@@ -581,18 +622,6 @@ h2 {
     font-size: 0.8rem;
   }
 
-  #footer .name > h3 {
-    font-size: 0.8rem;
-  }
-
-  #footer .name > address {
-    font-size: 0.6rem;
-  }
-
-  #footer .number > h4 {
-    font-size: 0.6rem;
-  }
-
   /* footer progress */
   #footer .progress .bar {
     width: 200px;
@@ -618,6 +647,18 @@ h2 {
   }
 
   #footer .action {
+    font-size: 0.6rem;
+  }
+
+  #footer .name > h3 {
+    font-size: 0.8rem;
+  }
+
+  #footer .name > address {
+    font-size: 0.6rem;
+  }
+
+  #footer .number > h4 {
     font-size: 0.6rem;
   }
 
