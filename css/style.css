@@ -178,6 +178,7 @@ svg {
 
 #side-bar .functions > .function:hover {
   color: var(--white);
+  cursor: pointer;
   border-left: var(--side-bar-selection-width) solid var(--pastel-green);
 }
 
@@ -207,6 +208,7 @@ svg {
 
 #side-bar .add-playlist .action:hover {
   color: var(--white);
+  cursor: pointer;
 }
 
 #side-bar .add-playlist .action:hover button {
@@ -226,6 +228,7 @@ svg {
 
 #side-bar .playlist li:hover {
   color: var(--white);
+  cursor: pointer;
 }
 
 /* account */
@@ -282,6 +285,7 @@ svg {
 
 #side-bar .account .account-top:hover p {
   color: var(--white);
+  cursor: pointer;
 }
 
 /* ** content */
@@ -308,6 +312,7 @@ svg {
 
 #content header button:hover {
   scale: 1.1;
+  cursor: pointer;
 }
 
 /* * main-content */
@@ -353,6 +358,7 @@ h2 {
 
 #content nav .element:hover {
   color: var(--white);
+  cursor: pointer;
 }
 
 #content nav .element:hover .line {
@@ -390,6 +396,7 @@ h2 {
 
 .main-content .card:hover img {
   filter: brightness(50%);
+  cursor: pointer;
 }
 
 .main-content .card:hover i.hidden {
@@ -465,10 +472,12 @@ h2 {
 
 #footer .bar:hover .ball.hidden {
   display: block;
+  cursor: pointer;
 }
 
 #footer .bar:hover .line {
   background-color: var(--pastel-green);
+  cursor: pointer;
 }
 
 /* media */
@@ -493,6 +502,7 @@ h2 {
 #footer .song .name:hover address {
   color: var(--white);
   text-decoration: underline;
+  cursor: pointer;
 }
 
 #footer .song .action .heart {
@@ -506,6 +516,7 @@ h2 {
 #footer .song .action > .heart:hover .hidden {
   display: inline-block;
   color: var(--white);
+  cursor: pointer;
 }
 
 #footer .song .action > .folder:hover .collapsed {
@@ -515,6 +526,7 @@ h2 {
 #footer .song .action > .folder:hover .hidden {
   display: inline-block;
   color: var(--white);
+  cursor: pointer;
 }
 
 /* footer progress */
@@ -544,7 +556,8 @@ h2 {
 }
 
 #footer .progress .middle:hover {
-  scale: 1.2;
+  scale: 1.4;
+  cursor: pointer;
 }
 
 /* footer setting */
